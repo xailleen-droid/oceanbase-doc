@@ -1,50 +1,50 @@
 # Summary
 
 * [V4.3.5 文档更新记录](0.bp-version-change-record.md)
-* [What's New](50.product-updates.md)
-* [Learn More About Oceanbase](100.learn-more-about-oceanbase/100.what-is-oceanbase.md)
+* [产品更新](50.product-updates.md)
+* [了解更多 OceanBase](100.learn-more-about-oceanbase/100.what-is-oceanbase.md)
   * [OceanBase 概述](100.learn-more-about-oceanbase/100.what-is-oceanbase.md)
   * [企业版和社区版的功能差异](100.learn-more-about-oceanbase/200.differences-between-enterprise-edition-and-community-edition.md)
   * [系统架构](100.learn-more-about-oceanbase/300.system-architecture.md)
   * [与 MySQL 兼容性对比](100.learn-more-about-oceanbase/500.compatibility-with-mysql.md)
   * [使用限制](100.learn-more-about-oceanbase/700.constraints-on-product-specifications.md)
-  * [Compatibility With Oracle](100.learn-more-about-oceanbase/400.compatibility-with-oracle/100.overview-of-compatibility-with-oracle.md)
+  * [与 Oracle 兼容性](100.learn-more-about-oceanbase/400.compatibility-with-oracle/100.overview-of-compatibility-with-oracle.md)
     * [与 Oracle 兼容性概述](100.learn-more-about-oceanbase/400.compatibility-with-oracle/100.overview-of-compatibility-with-oracle.md)
     * [SQL 数据类型](100.learn-more-about-oceanbase/400.compatibility-with-oracle/200.sql-data-type.md)
     * [内建函数](100.learn-more-about-oceanbase/400.compatibility-with-oracle/300.built-in-functions.md)
     * [系统视图](100.learn-more-about-oceanbase/400.compatibility-with-oracle/400.system-view.md)
-* [Quickstart](200.quickstart/100.quickly-experience-oceanbase-for-community.md)
+* [快速入门](200.quickstart/100.quickly-experience-oceanbase-for-community.md)
   * [快速体验 OceanBase 社区版](200.quickstart/100.quickly-experience-oceanbase-for-community.md)
   * [快速入门系列教程](200.quickstart/800.tutorial-list.md)
-  * [Get Started With Oceanbase Sql](200.quickstart/200.get-started-with-oceanbase-sql/100.before-you-start.md)
+  * [OceanBase SQL 快速入门](200.quickstart/200.get-started-with-oceanbase-sql/100.before-you-start.md)
     * [在您开始前](200.quickstart/200.get-started-with-oceanbase-sql/100.before-you-start.md)
     * [SQL 基础操作（MySQL 模式）](200.quickstart/200.get-started-with-oceanbase-sql/200.basic-sql-operations-of-mysql-mode.md)
     * [SQL 基础操作（Oracle 模式）](200.quickstart/200.get-started-with-oceanbase-sql/300.basic-sql-operations-of-oracle-mode.md)
-  * [Create Sample Application Of Mysql Mode](200.quickstart/300.create-sample-application-of-mysql-mode/100.python-application-of-mysql-model.md)
+  * [创建 MySQL 模式示例应用](200.quickstart/300.create-sample-application-of-mysql-mode/100.python-application-of-mysql-model.md)
     * [创建 Python 示例应用程序](200.quickstart/300.create-sample-application-of-mysql-mode/100.python-application-of-mysql-model.md)
     * [创建 Java 示例应用程序](200.quickstart/300.create-sample-application-of-mysql-mode/200.java-application-of-mysql-model.md)
     * [创建 C 示例应用程序](200.quickstart/300.create-sample-application-of-mysql-mode/300.c-application-of-mysql-model.md)
     * [创建 Go 示例应用程序](200.quickstart/300.create-sample-application-of-mysql-mode/400.golang-application-of-mysql-model.md)
-  * [Create Sample Application Of Oracle Mode](200.quickstart/300.create-sample-application-of-oracle-mode/200.java-application-of-oracle-model.md)
+  * [创建 Oracle 模式示例应用](200.quickstart/300.create-sample-application-of-oracle-mode/200.java-application-of-oracle-model.md)
     * [创建 Java 示例应用程序](200.quickstart/300.create-sample-application-of-oracle-mode/200.java-application-of-oracle-model.md)
     * [创建 C 示例应用程序](200.quickstart/300.create-sample-application-of-oracle-mode/300.c-application-of-oracle-model.md)
-  * [Experience Advanced Features Of Oceanbase](200.quickstart/500.experience-advanced-features-of-oceanbase/200.experience-operational-olap.md)
+  * [体验 OceanBase 高级功能](200.quickstart/500.experience-advanced-features-of-oceanbase/200.experience-operational-olap.md)
     * [体验 Operational OLAP](200.quickstart/500.experience-advanced-features-of-oceanbase/200.experience-operational-olap.md)
     * [体验并行导入和数据压缩](200.quickstart/500.experience-advanced-features-of-oceanbase/300.experience-parallelly-importing-and-data-compression.md)
     * [体验多租户特性](200.quickstart/500.experience-advanced-features-of-oceanbase/400.experience-multi-tenant-features.md)
-    * [Experience Scalable Oltp](200.quickstart/500.experience-advanced-features-of-oceanbase/100.experience-scalable-oltp/100.run-the-tpc-c-test-on-oceanbase-database.md)
+    * [体验可扩展 OLTP](200.quickstart/500.experience-advanced-features-of-oceanbase/100.experience-scalable-oltp/100.run-the-tpc-c-test-on-oceanbase-database.md)
       * [在 OceanBase 数据库上进行 TPC-C 测试](200.quickstart/500.experience-advanced-features-of-oceanbase/100.experience-scalable-oltp/100.run-the-tpc-c-test-on-oceanbase-database.md)
       * [体验 OceanBase 数据库热点行更新能力](200.quickstart/500.experience-advanced-features-of-oceanbase/100.experience-scalable-oltp/200.experience-the-hot-row-update-capability-of-oceanbase-database.md)
-* Develop
-  * Application Development Of Mysql Mode
-    * [Connect To Oceanbase Database Of Mysql Mode](300.develop/100.application-development-of-mysql-mode/100.connect-to-oceanbase-database-of-mysql-mode/100.connection-methods-overview-of-mysql-mode.md)
+* 开发
+  * MySQL 模式应用开发
+    * [连接 OceanBase 数据库（MySQL 模式）](300.develop/100.application-development-of-mysql-mode/100.connect-to-oceanbase-database-of-mysql-mode/100.connection-methods-overview-of-mysql-mode.md)
       * [连接方式概述](300.develop/100.application-development-of-mysql-mode/100.connect-to-oceanbase-database-of-mysql-mode/100.connection-methods-overview-of-mysql-mode.md)
       * [通过 MySQL 客户端连接 OceanBase 租户](300.develop/100.application-development-of-mysql-mode/100.connect-to-oceanbase-database-of-mysql-mode/200.connect-to-an-oceanbase-tenant-by-using-a-mysql-client-of-mysql-mode.md)
       * [通过 OBClient 连接 OceanBase 租户](300.develop/100.application-development-of-mysql-mode/100.connect-to-oceanbase-database-of-mysql-mode/300.connect-to-an-oceanbase-tenant-by-using-obclient-of-mysql-mode.md)
       * [通过 ODC 连接 OceanBase 数据库](300.develop/100.application-development-of-mysql-mode/100.connect-to-oceanbase-database-of-mysql-mode/400.connect-to-the-oceanbase-database-through-odc-of-mysql-mode.md)
       * [通过 DBeaver 连接数据库](300.develop/100.application-development-of-mysql-mode/100.connect-to-oceanbase-database-of-mysql-mode/500.connect-to-oceanbase-database-through-dbeaver.md)
       * [通过 Navicat 连接数据库](300.develop/100.application-development-of-mysql-mode/100.connect-to-oceanbase-database-of-mysql-mode/600.connect-to-oceanbase-database-through-navicat.md)
-      * [Use The Database Connection Pool Of Mysql Mode](300.develop/100.application-development-of-mysql-mode/100.connect-to-oceanbase-database-of-mysql-mode/1400.use-the-database-connection-pool-of-mysql-mode/100.database-connection-pool-configuration-of-mysql-mode.md)
+      * [使用数据库连接池（MySQL 模式）](300.develop/100.application-development-of-mysql-mode/100.connect-to-oceanbase-database-of-mysql-mode/1400.use-the-database-connection-pool-of-mysql-mode/100.database-connection-pool-configuration-of-mysql-mode.md)
         * [数据库连接池配置](300.develop/100.application-development-of-mysql-mode/100.connect-to-oceanbase-database-of-mysql-mode/1400.use-the-database-connection-pool-of-mysql-mode/100.database-connection-pool-configuration-of-mysql-mode.md)
         * [Tomcat 连接池连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/100.connect-to-oceanbase-database-of-mysql-mode/1400.use-the-database-connection-pool-of-mysql-mode/200.tomcat-connection-pool-configuration-example-of-mysql-mode.md)
         * [C3P0 连接池连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/100.connect-to-oceanbase-database-of-mysql-mode/1400.use-the-database-connection-pool-of-mysql-mode/300.c3p0-connection-pool-configuration-example-of-mysql-mode.md)
@@ -54,8 +54,8 @@
         * [Commons Pool 连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/100.connect-to-oceanbase-database-of-mysql-mode/1400.use-the-database-connection-pool-of-mysql-mode/700.commonpool-configuration-example-of-mysql-mode.md)
         * [Druid 连接池连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/100.connect-to-oceanbase-database-of-mysql-mode/1400.use-the-database-connection-pool-of-mysql-mode/800.druid-connection-pool-configuration-example-of-mysql-mode.md)
         * [JDBC 配置示例](300.develop/100.application-development-of-mysql-mode/100.connect-to-oceanbase-database-of-mysql-mode/1400.use-the-database-connection-pool-of-mysql-mode/900.jdbc-connection-pool-configuration-example-of-mysql-mode.md)
-    * Sample Program Of Mysql Mode
-      * [Java Of Mysql Mode](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/100.java-of-mysql-mode/1000.connect-to-the-oceanbase-database-through-spring-jdbc-of-mysql-mode.md)
+    * MySQL 模式示例程序
+      * [Java（MySQL 模式）](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/100.java-of-mysql-mode/1000.connect-to-the-oceanbase-database-through-spring-jdbc-of-mysql-mode.md)
         * [Spring JDBC 连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/100.java-of-mysql-mode/1000.connect-to-the-oceanbase-database-through-spring-jdbc-of-mysql-mode.md)
         * [SpringDataJPA 连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/100.java-of-mysql-mode/1100.connect-to-the-oceanbase-database-through-springjpa-of-mysql-mode.md)
         * [Hibernate 连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/100.java-of-mysql-mode/1200.connect-to-the-oceanbase-database-through-hibernate-of-mysql-mode.md)
@@ -64,42 +64,42 @@
         * [TestContainers Java 连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/100.java-of-mysql-mode/1500.connect-to-the-oceanbase-database-through-testcontainers-of-mysql-mode.md)
         * [SpringBoot 连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/100.java-of-mysql-mode/800.connect-to-the-oceanbase-database-through-spring-boot-of-mysql-mode.md)
         * [SpringBatch 连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/100.java-of-mysql-mode/900.connect-to-the-oceanbase-database-through-spring-batch-of-mysql-mode.md)
-      * [Python Of Mysql Mode](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/200.python-of-mysql-mode/100.mysqlclient-connection-to-oceanbase-database-sample-program.md)
+      * [Python（MySQL 模式）](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/200.python-of-mysql-mode/100.mysqlclient-connection-to-oceanbase-database-sample-program.md)
         * [mysqlclient 连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/200.python-of-mysql-mode/100.mysqlclient-connection-to-oceanbase-database-sample-program.md)
         * [PyMySQL 连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/200.python-of-mysql-mode/200.pymysql-connection-to-oceanbase-database-sample-program.md)
         * [MySQL-connector-python 连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/200.python-of-mysql-mode/300.mysql-connector-py-connection-to-oceanbase-database-sample-program.md)
         * [SQLAlchemy 连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/200.python-of-mysql-mode/400.sqlalchemy-connection-to-oceanbase-database-sample-program.md)
         * [Django 连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/200.python-of-mysql-mode/500.django-connection-to-oceanbase-database-sample-program.md)
         * [peewee 连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/200.python-of-mysql-mode/600.peewee-connection-to-oceanbase-database-sample-program.md)
-      * [C Of Mysql Mode](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/300.c-of-mysql-mode/100.connect-to-the-oceanbase-database-through-mysql-connector-c-of-mysql-mode.md)
+      * [C（MySQL 模式）](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/300.c-of-mysql-mode/100.connect-to-the-oceanbase-database-through-mysql-connector-c-of-mysql-mode.md)
         * [MySQL Connector/C 连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/300.c-of-mysql-mode/100.connect-to-the-oceanbase-database-through-mysql-connector-c-of-mysql-mode.md)
-      * [Go Of Mysql Mode](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/400.go-of-mysql-mode/1.go-sql-driver-mysql-connection-oceanbase-sample-program.md)
+      * [Go（MySQL 模式）](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/400.go-of-mysql-mode/1.go-sql-driver-mysql-connection-oceanbase-sample-program.md)
         * [Go-SQL-Driver/MySQL 连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/400.go-of-mysql-mode/1.go-sql-driver-mysql-connection-oceanbase-sample-program.md)
         * [GORM 连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/400.go-of-mysql-mode/2.gorm-connection-oceanbase-database-example-program.md)
-      * [Php Of Mysql Mode](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/500.php-of-mysql-mode/100.ext-driver-connects-to-oceanbase-database.md)
+      * [PHP（MySQL 模式）](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/500.php-of-mysql-mode/100.ext-driver-connects-to-oceanbase-database.md)
         * [EXT 驱动连接  OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/500.php-of-mysql-mode/100.ext-driver-connects-to-oceanbase-database.md)
         * [使用 MySQLi 驱动连接 OceanBase 数据库](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/500.php-of-mysql-mode/200.use-mysqli-driver-to-connect-to-oceanbase.md)
         * [使用 PDO 驱动连接 OceanBase 数据库](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/500.php-of-mysql-mode/300.use-pdo-driver-to-connect-to-oceanbase.md)
-      * [Rust Of Mysql Mode](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/600.rust-of-mysql-mode/100.rust-connection-to-oceanbase-database-sample-program.md)
+      * [Rust（MySQL 模式）](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/600.rust-of-mysql-mode/100.rust-connection-to-oceanbase-database-sample-program.md)
         * [Rust 连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/600.rust-of-mysql-mode/100.rust-connection-to-oceanbase-database-sample-program.md)
         * [SeaORM 连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/600.rust-of-mysql-mode/200.sea-connection-oceanbase-database-program.md)
-      * [Ruby Of Mysql Mode](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/700.ruby-of-mysql-mode/100.activerecord-connection-to-oceanbase-database-sample-program.md)
+      * [Ruby（MySQL 模式）](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/700.ruby-of-mysql-mode/100.activerecord-connection-to-oceanbase-database-sample-program.md)
         * [ActiveRecord 连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/700.ruby-of-mysql-mode/100.activerecord-connection-to-oceanbase-database-sample-program.md)
         * [mysql2 连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/700.ruby-of-mysql-mode/200.mysql2-connection-to-oceanbase-database-sample-program.md)
         * [Sequel 连接 OceanBase 数据库示例程序](300.develop/100.application-development-of-mysql-mode/200.sample-program-of-mysql-mode/700.ruby-of-mysql-mode/300.sequel-connection-to-oceanbase-database-sample-program.md)
-    * [Database Object Planning Of Mysql Mode](300.develop/100.application-development-of-mysql-mode/300.database-object-planning-of-mysql-mode/100.create-database-of-mysql-mode-in-develop.md)
+    * [数据库对象规划（MySQL 模式）](300.develop/100.application-development-of-mysql-mode/300.database-object-planning-of-mysql-mode/100.create-database-of-mysql-mode-in-develop.md)
       * [创建数据库](300.develop/100.application-development-of-mysql-mode/300.database-object-planning-of-mysql-mode/100.create-database-of-mysql-mode-in-develop.md)
       * [创建表组](300.develop/100.application-development-of-mysql-mode/300.database-object-planning-of-mysql-mode/200.create-tablegroup-of-mysql-mode-in-develop.md)
       * [创建表](300.develop/100.application-development-of-mysql-mode/300.database-object-planning-of-mysql-mode/300.create-table-of-mysql-mode-in-develop.md)
       * [创建索引](300.develop/100.application-development-of-mysql-mode/300.database-object-planning-of-mysql-mode/400.create-index-of-mysql-mode-in-develop.md)
       * [创建外表](300.develop/100.application-development-of-mysql-mode/300.database-object-planning-of-mysql-mode/500.create-external-table-in-develop-of-mysql-mode.md)
-    * [Write Data Of Mysql Mode](300.develop/100.application-development-of-mysql-mode/400.write-data-of-mysql-mode/100.insert-data-of-mysql-mode-in-develop.md)
+    * [写入数据（MySQL 模式）](300.develop/100.application-development-of-mysql-mode/400.write-data-of-mysql-mode/100.insert-data-of-mysql-mode-in-develop.md)
       * [插入数据](300.develop/100.application-development-of-mysql-mode/400.write-data-of-mysql-mode/100.insert-data-of-mysql-mode-in-develop.md)
       * [更新数据](300.develop/100.application-development-of-mysql-mode/400.write-data-of-mysql-mode/200.update-data-of-mysql-mode-in-develop.md)
       * [删除数据](300.develop/100.application-development-of-mysql-mode/400.write-data-of-mysql-mode/300.delete-data-of-mysql-mode-in-develop.md)
       * [替换数据](300.develop/100.application-development-of-mysql-mode/400.write-data-of-mysql-mode/400.replace-data-of-mysql-mode-in-develop.md)
       * [批量生成测试数据](300.develop/100.application-development-of-mysql-mode/400.write-data-of-mysql-mode/500.batch-data-generation-of-mysql-mode-in-develop.md)
-    * [Read Data Of Mysql Mode](300.develop/100.application-development-of-mysql-mode/500.read-data-of-mysql-mode/100.single-table-query-of-mysql-mode.md)
+    * [读取数据（MySQL 模式）](300.develop/100.application-development-of-mysql-mode/500.read-data-of-mysql-mode/100.single-table-query-of-mysql-mode.md)
       * [单表查询](300.develop/100.application-development-of-mysql-mode/500.read-data-of-mysql-mode/100.single-table-query-of-mysql-mode.md)
       * [使用 DBLink 查询](300.develop/100.application-development-of-mysql-mode/500.read-data-of-mysql-mode/400.using-dblink-query-of-mysql-mode-in-development.md)
       * [集合操作](300.develop/100.application-development-of-mysql-mode/500.read-data-of-mysql-mode/500.query-collection-operations-of-mysql-mode.md)
@@ -136,14 +136,14 @@
       * [Application Error Handling Specification Of Mysql Mode](300.develop/100.application-development-of-mysql-mode/700.application-error-handling-specification-and-common-error-solutions/100.application-error-handling-specification-of-mysql-mode/100.error-code-introduction-of-mysql-mode.md)
         * [错误码介绍](300.develop/100.application-development-of-mysql-mode/700.application-error-handling-specification-and-common-error-solutions/100.application-error-handling-specification-of-mysql-mode/100.error-code-introduction-of-mysql-mode.md)
         * [MySQL 兼容应用错误处理规范](300.develop/100.application-development-of-mysql-mode/700.application-error-handling-specification-and-common-error-solutions/100.application-error-handling-specification-of-mysql-mode/200.application-error-handling-specification-of-mysql-mode.md)
-  * Application Development Of Oracle Mode
-    * [Connect To Oceanbase Database Of Oracle Mode](300.develop/200.application-development-of-oracle-mode/100.connect-to-oceanbase-database-of-oracle-mode/100.connection-methods-overview-of-oracle-mode.md)
+  * Oracle 模式应用开发
+    * [连接 OceanBase 数据库（Oracle 模式）](300.develop/200.application-development-of-oracle-mode/100.connect-to-oceanbase-database-of-oracle-mode/100.connection-methods-overview-of-oracle-mode.md)
       * [连接方式概述](300.develop/200.application-development-of-oracle-mode/100.connect-to-oceanbase-database-of-oracle-mode/100.connection-methods-overview-of-oracle-mode.md)
       * [通过 OBClient 连接 OceanBase 租户](300.develop/200.application-development-of-oracle-mode/100.connect-to-oceanbase-database-of-oracle-mode/200.connect-to-an-oceanbase-tenant-by-using-obclient-of-oracle-mode.md)
       * [通过 ODC 连接 OceanBase 数据库](300.develop/200.application-development-of-oracle-mode/100.connect-to-oceanbase-database-of-oracle-mode/300.connect-to-the-oceanbase-database-through-odc-of-oracle-mode.md)
       * [通过 DBeaver 连接 OceanBase 数据库（Oracle 模式）](300.develop/200.application-development-of-oracle-mode/100.connect-to-oceanbase-database-of-oracle-mode/400.connect-to-oceanbase-database-through-dbeaver-of-oracle-mode.md)
       * [通过 Navicat 连接 OceanBase 数据库（Oracle 模式）](300.develop/200.application-development-of-oracle-mode/100.connect-to-oceanbase-database-of-oracle-mode/500.connect-to-oceanbase-database-through-navicat-of-oracle-mode.md)
-      * [Use The Database Connection Pool Of Oracle Mode](300.develop/200.application-development-of-oracle-mode/100.connect-to-oceanbase-database-of-oracle-mode/1300.use-the-database-connection-pool-of-oracle-mode/100.database-connection-pool-configuration-of-oracle-mode.md)
+      * [使用数据库连接池（Oracle 模式）](300.develop/200.application-development-of-oracle-mode/100.connect-to-oceanbase-database-of-oracle-mode/1300.use-the-database-connection-pool-of-oracle-mode/100.database-connection-pool-configuration-of-oracle-mode.md)
         * [数据库连接池配置](300.develop/200.application-development-of-oracle-mode/100.connect-to-oceanbase-database-of-oracle-mode/1300.use-the-database-connection-pool-of-oracle-mode/100.database-connection-pool-configuration-of-oracle-mode.md)
         * [Tomcat 连接池连接 OceanBase 数据库示例程序](300.develop/200.application-development-of-oracle-mode/100.connect-to-oceanbase-database-of-oracle-mode/1300.use-the-database-connection-pool-of-oracle-mode/200.tomcat-connection-pool-configuration-example-of-oracle-mode.md)
         * [C3P0 连接池连接 OceanBase 数据库示例程序](300.develop/200.application-development-of-oracle-mode/100.connect-to-oceanbase-database-of-oracle-mode/1300.use-the-database-connection-pool-of-oracle-mode/300.c3p0-connection-pool-configuration-example-of-oracle-mode.md)
@@ -152,8 +152,8 @@
         * [DBCP 连接池连接 OceanBase 数据库示例程序](300.develop/200.application-development-of-oracle-mode/100.connect-to-oceanbase-database-of-oracle-mode/1300.use-the-database-connection-pool-of-oracle-mode/600.dbcp-connection-pool-example-of-oracle-mode.md)
         * [Commons Pool 连接 OceanBase 数据库示例程序](300.develop/200.application-development-of-oracle-mode/100.connect-to-oceanbase-database-of-oracle-mode/1300.use-the-database-connection-pool-of-oracle-mode/700.commonpool-configuration-example-of-oracle-mode.md)
         * [Druid 连接池连接 OceanBase 数据库示例程序](300.develop/200.application-development-of-oracle-mode/100.connect-to-oceanbase-database-of-oracle-mode/1300.use-the-database-connection-pool-of-oracle-mode/800.druid-connection-pool-configuration-example-of-oracle-mode.md)
-    * Sample Program Of Oracle Mode
-      * [Java Of Oracle Mode](300.develop/200.application-development-of-oracle-mode/200.sample-program-of-oracle-mode/100.java-of-oracle-mode/100.oceanbase-connector-j-connection-to-oceanbase-database-sample-program.md)
+    * Oracle 模式示例程序
+      * [Java（Oracle 模式）](300.develop/200.application-development-of-oracle-mode/200.sample-program-of-oracle-mode/100.java-of-oracle-mode/100.oceanbase-connector-j-connection-to-oceanbase-database-sample-program.md)
         * [OceanBase Connector/J 连接 OceanBase 数据库示例程序](300.develop/200.application-development-of-oracle-mode/200.sample-program-of-oracle-mode/100.java-of-oracle-mode/100.oceanbase-connector-j-connection-to-oceanbase-database-sample-program.md)
         * [SpringDataJPA 连接 OceanBase 数据库示例程序](300.develop/200.application-development-of-oracle-mode/200.sample-program-of-oracle-mode/100.java-of-oracle-mode/1000.connect-to-the-oceanbase-database-through-springjpa-of-oracle-mode.md)
         * [Hibernate 连接 OceanBase 数据库示例程序](300.develop/200.application-development-of-oracle-mode/200.sample-program-of-oracle-mode/100.java-of-oracle-mode/1100.connect-to-the-oceanbase-database-through-hibernate-of-oracle-mode.md)
@@ -162,22 +162,22 @@
         * [SpringBoot 连接 OceanBase 数据库示例程序](300.develop/200.application-development-of-oracle-mode/200.sample-program-of-oracle-mode/100.java-of-oracle-mode/700.connect-to-the-oceanbase-database-through-spring-boot-of-oracle-mode.md)
         * [SpringBatch 连接 OceanBase 数据库示例程序](300.develop/200.application-development-of-oracle-mode/200.sample-program-of-oracle-mode/100.java-of-oracle-mode/800.connect-to-the-oceanbase-database-through-spring-batch-of-oracle-mode.md)
         * [Spring JDBC 连接 OceanBase 数据库示例程序](300.develop/200.application-development-of-oracle-mode/200.sample-program-of-oracle-mode/100.java-of-oracle-mode/900.connect-to-the-oceanbase-database-through-spring-jdbc-of-oracle-mode.md)
-      * [C Of Oracle Mode](300.develop/200.application-development-of-oracle-mode/200.sample-program-of-oracle-mode/300.c-of-oracle-mode/100.oceanbase-connector-c-connection-to-oceanbase-database-sample-program.md)
+      * [C（Oracle 模式）](300.develop/200.application-development-of-oracle-mode/200.sample-program-of-oracle-mode/300.c-of-oracle-mode/100.oceanbase-connector-c-connection-to-oceanbase-database-sample-program.md)
         * [OceanBase Connector/C 连接 OceanBase 数据库示例程序](300.develop/200.application-development-of-oracle-mode/200.sample-program-of-oracle-mode/300.c-of-oracle-mode/100.oceanbase-connector-c-connection-to-oceanbase-database-sample-program.md)
         * [OceanBase Connector/ODBC 连接 OceanBase 数据库示例程序](300.develop/200.application-development-of-oracle-mode/200.sample-program-of-oracle-mode/300.c-of-oracle-mode/200.oceanbase-connector-odbc-connection-to-oceanbase-database-sample-program.md)
         * [SqlSugar 连接 OceanBase 数据库示例程序](300.develop/200.application-development-of-oracle-mode/200.sample-program-of-oracle-mode/300.c-of-oracle-mode/300.sqlsugar-connection-to-oceanbase-database-sample-program.md)
-    * [Database Object Planning Of Oracle Mode](300.develop/200.application-development-of-oracle-mode/300.database-object-planning-of-oracle-mode/100.create-tablegroup-of-oracle-mode-in-develop.md)
+    * [数据库对象规划（Oracle 模式）](300.develop/200.application-development-of-oracle-mode/300.database-object-planning-of-oracle-mode/100.create-tablegroup-of-oracle-mode-in-develop.md)
       * [创建表组](300.develop/200.application-development-of-oracle-mode/300.database-object-planning-of-oracle-mode/100.create-tablegroup-of-oracle-mode-in-develop.md)
       * [创建表](300.develop/200.application-development-of-oracle-mode/300.database-object-planning-of-oracle-mode/200.create-table-of-oracle-mode-in-develop.md)
       * [创建索引](300.develop/200.application-development-of-oracle-mode/300.database-object-planning-of-oracle-mode/300.create-index-of-oracle-mode-in-develop.md)
       * [创建外表](300.develop/200.application-development-of-oracle-mode/300.database-object-planning-of-oracle-mode/400.create-external-table-in-develop-of-oracle-mode.md)
-    * [Write Data Of Oracle Mode](300.develop/200.application-development-of-oracle-mode/400.write-data-of-oracle-mode/100.insert-data-of-oracle-mode-in-develop.md)
+    * [写入数据（Oracle 模式）](300.develop/200.application-development-of-oracle-mode/400.write-data-of-oracle-mode/100.insert-data-of-oracle-mode-in-develop.md)
       * [插入数据](300.develop/200.application-development-of-oracle-mode/400.write-data-of-oracle-mode/100.insert-data-of-oracle-mode-in-develop.md)
       * [更新数据](300.develop/200.application-development-of-oracle-mode/400.write-data-of-oracle-mode/200.update-data-of-oracle-mode-in-develop.md)
       * [删除数据](300.develop/200.application-development-of-oracle-mode/400.write-data-of-oracle-mode/300.delete-data-of-oracle-mode-in-develop.md)
       * [替换数据](300.develop/200.application-development-of-oracle-mode/400.write-data-of-oracle-mode/400.replace-data-of-oracle-mode-in-develop.md)
       * [批量生成测试数据](300.develop/200.application-development-of-oracle-mode/400.write-data-of-oracle-mode/500.batch-data-generation-of-oracle-mode-in-develop.md)
-    * [Read Data Of Oracle Mode](300.develop/200.application-development-of-oracle-mode/500.read-data-of-oracle-mode/100.single-table-query-of-oracle-mode.md)
+    * [读取数据（Oracle 模式）](300.develop/200.application-development-of-oracle-mode/500.read-data-of-oracle-mode/100.single-table-query-of-oracle-mode.md)
       * [单表查询](300.develop/200.application-development-of-oracle-mode/500.read-data-of-oracle-mode/100.single-table-query-of-oracle-mode.md)
       * [使用 DBLink 查询](300.develop/200.application-development-of-oracle-mode/500.read-data-of-oracle-mode/400.using-dblink-query-of-oracle-mode-in-development.md)
       * [集合操作](300.develop/200.application-development-of-oracle-mode/500.read-data-of-oracle-mode/500.query-collection-operations-of-oracle-mode.md)
@@ -344,7 +344,7 @@
       * [启动 Zone](600.manage/100.cluster-management/300.common-cluster-operations/800.1.start-a-zone.md)
       * [添加 Zone](600.manage/100.cluster-management/300.common-cluster-operations/800.add-a-zone.md)
       * [删除 Zone](600.manage/100.cluster-management/300.common-cluster-operations/900.delete-a-zone.md)
-      * Oceanbase Version Upgrade
+      * OceanBase 版本升级
         * [Upgrade Oceanbase Enterprise Edition](600.manage/100.cluster-management/300.common-cluster-operations/1500.oceanbase-version-upgrade/200.upgrade-oceanbase-enterprise-edition/100.upgrade-overview.md)
           * [升级概述](600.manage/100.cluster-management/300.common-cluster-operations/1500.oceanbase-version-upgrade/200.upgrade-oceanbase-enterprise-edition/100.upgrade-overview.md)
           * [升级仲裁服务](600.manage/100.cluster-management/300.common-cluster-operations/1500.oceanbase-version-upgrade/200.upgrade-oceanbase-enterprise-edition/200.arbitration-services-version-upgrade.md)
@@ -388,7 +388,7 @@
   * [Emergency Response](600.manage/1100.emergency-response/100.database-contingency-overview.md)
     * [数据库应急概述](600.manage/1100.emergency-response/100.database-contingency-overview.md)
     * [分析诊断&决策流程](600.manage/1100.emergency-response/200.analysis-diagnosis-and-decision-making-process.md)
-    * Common Emergency Response
+    * 常见应急响应
       * [Issues In The Hardware Environment](600.manage/1100.emergency-response/300.common-emergency-response/100.issues-in-the-hardware-environment/100.node-failures.md)
         * [节点宕机](600.manage/1100.emergency-response/300.common-emergency-response/100.issues-in-the-hardware-environment/100.node-failures.md)
         * [网络抖动](600.manage/1100.emergency-response/300.common-emergency-response/100.issues-in-the-hardware-environment/200.network-jitter.md)
@@ -544,7 +544,7 @@
       * [清理回收站](600.manage/400.high-availability/500.recyclebin-management/500.purge-the-recyclebin.md)
   * [Security And Permissions](600.manage/500.security-and-permissions/100.security-permissions.md)
     * [安全权限概述](600.manage/500.security-and-permissions/100.security-permissions.md)
-    * Identification And Authentication
+    * 身份识别与认证
       * [Identification And Authentication Of Mysql Mode](600.manage/500.security-and-permissions/200.identification-and-authentication/100.identification-and-authentication-of-mysql-mode/100.identification-of-mysql-mode.md)
         * [身份鉴别](600.manage/500.security-and-permissions/200.identification-and-authentication/100.identification-and-authentication-of-mysql-mode/100.identification-of-mysql-mode.md)
         * [密码复杂度](600.manage/500.security-and-permissions/200.identification-and-authentication/100.identification-and-authentication-of-mysql-mode/200.password-complexity-of-mysql-mode.md)
@@ -692,7 +692,7 @@
   * [Monitor](600.manage/700.monitor/100.monitor-overview.md)
     * [监控概述](600.manage/700.monitor/100.monitor-overview.md)
     * [案例](600.manage/700.monitor/400.samples.md)
-    * Monitor Items Introduction
+    * 监控项介绍
       * [System Monitor](600.manage/700.monitor/200.monitor-items-introduction/100.system-monitor/100.system-monitor-overview.md)
         * [系统监控指标概述](600.manage/700.monitor/200.monitor-items-introduction/100.system-monitor/100.system-monitor-overview.md)
         * [监控项](600.manage/700.monitor/200.monitor-items-introduction/100.system-monitor/200.monitor-items.md)
@@ -748,7 +748,7 @@
       * [定位和分析慢查询（一）](600.manage/900.performance-tuning/400.sql-tuning/500.slow-query.md)
       * [定位和分析慢查询（二）](600.manage/900.performance-tuning/400.sql-tuning/600.short-sql.md)
       * [SQL 调优典型场景和案例](600.manage/900.performance-tuning/400.sql-tuning/800.sql-tuning-samples.md)
-      * Execution Plan Optimization
+      * 执行计划优化
         * [Statistics And Cost Based Optimization](600.manage/900.performance-tuning/400.sql-tuning/200.execution-plan-optimization/100.statistics-and-cost-based-optimization/100.statistics-and-cost-based-optimization-overview.md)
           * [统计信息和估行机制概述](600.manage/900.performance-tuning/400.sql-tuning/200.execution-plan-optimization/100.statistics-and-cost-based-optimization/100.statistics-and-cost-based-optimization-overview.md)
           * [统计信息和估行机制的使用](600.manage/900.performance-tuning/400.sql-tuning/200.execution-plan-optimization/100.statistics-and-cost-based-optimization/400.use-statistic-information-and-cost-based-optimization.md)
@@ -868,7 +868,7 @@
     * [OceanBase 数据库 Vector 与 Dify 集成](680.ecological-integration/1100.AI/500.dify.md)
     * [OceanBase 数据库 与 n8n 集成](680.ecological-integration/1100.AI/600.n8n.md)
     * [OceanBase MCP Server 与 Trae 集成](680.ecological-integration/1100.AI/700.trae.md)
-  * Orms Frameworks
+  * ORM 框架
     * [Java](680.ecological-integration/200.orms-frameworks/100.java/100.connect-to-the-oceanbase-database-through-spring-boot.md)
       * [SpringBoot 连接 OceanBase 数据库示例程序](680.ecological-integration/200.orms-frameworks/100.java/100.connect-to-the-oceanbase-database-through-spring-boot.md)
       * [SpringBatch 连接 OceanBase 数据库示例程序](680.ecological-integration/200.orms-frameworks/100.java/200.connect-to-the-oceanbase-database-through-spring-batch.md)
@@ -937,8 +937,8 @@
   * [使用全文索引实现海量新闻数据的高效检索](690.practical-tutorial/600.quickly-query-target-news-by-fulltext.md)
   * [基于 Spark 对 OceanBase 中的海量数据进行快速处理与分析](690.practical-tutorial/700.rapidly-analyze-data-by-spark.md)
   * [使用旁路导入加速海量数据导入](690.practical-tutorial/800.bypass-import.md)
-* Reference
-  * [Oceanbase Database Concepts](700.reference/100.oceanbase-database-concepts/100.architecture-of-oceanbase.md)
+* 参考文档
+  * [OceanBase 数据库概念](700.reference/100.oceanbase-database-concepts/100.architecture-of-oceanbase.md)
     * [OceanBase 数据库整体架构](700.reference/100.oceanbase-database-concepts/100.architecture-of-oceanbase.md)
     * [OceanBase 数据库插件机制](700.reference/100.oceanbase-database-concepts/1300.oceanbase-database-plugin-mechanism.md)
     * [OceanBase 数据库的发展历程](700.reference/100.oceanbase-database-concepts/200.history-of-oceanbase.md)
@@ -992,8 +992,8 @@
         * [租户的资源管理](700.reference/100.oceanbase-database-concepts/300.multi-tenant-architecture/500.tenants-and-resource-management/100.tenant-resource-management.md)
         * [租户间的资源隔离](700.reference/100.oceanbase-database-concepts/300.multi-tenant-architecture/500.tenants-and-resource-management/200.resource-isolation-between-tenants.md)
         * [资源单元的均衡](700.reference/100.oceanbase-database-concepts/300.multi-tenant-architecture/500.tenants-and-resource-management/300.resource-unit-balancing.md)
-    * Database Objects
-      * Database Objects Of Oracle Mode
+    * 数据库对象
+      * 数据库对象（Oracle 模式）
         * [Introduction To Database Objects Of Oracle Mode](700.reference/100.oceanbase-database-concepts/400.database-objects/100.database-objects-of-oracle-mode/100.introduction-to-database-objects-of-oracle-mode/100.database-objects-overview-of-oracle-mode.md)
           * [数据库对象概述](700.reference/100.oceanbase-database-concepts/400.database-objects/100.database-objects-of-oracle-mode/100.introduction-to-database-objects-of-oracle-mode/100.database-objects-overview-of-oracle-mode.md)
           * [数据库对象类型](700.reference/100.oceanbase-database-concepts/400.database-objects/100.database-objects-of-oracle-mode/100.introduction-to-database-objects-of-oracle-mode/200.database-object-types-of-oracle-mode.md)
@@ -1045,7 +1045,7 @@
         * [Other Objects Of Oracle Mode](700.reference/100.oceanbase-database-concepts/400.database-objects/100.database-objects-of-oracle-mode/600.other-objects-of-oracle-mode/100.sequence-of-oracle-mode.md)
           * [序列](700.reference/100.oceanbase-database-concepts/400.database-objects/100.database-objects-of-oracle-mode/600.other-objects-of-oracle-mode/100.sequence-of-oracle-mode.md)
           * [同义词](700.reference/100.oceanbase-database-concepts/400.database-objects/100.database-objects-of-oracle-mode/600.other-objects-of-oracle-mode/200.synonyms-of-oracle-mode.md)
-        * [System View Of Oracle Mode](700.reference/100.oceanbase-database-concepts/400.database-objects/100.database-objects-of-oracle-mode/700.system-view-of-oracle-mode/100.dictionary-view-of-oracle-mode.md)
+        * [系统视图（Oracle 模式）](700.reference/100.oceanbase-database-concepts/400.database-objects/100.database-objects-of-oracle-mode/700.system-view-of-oracle-mode/100.dictionary-view-of-oracle-mode.md)
           * [字典视图](700.reference/100.oceanbase-database-concepts/400.database-objects/100.database-objects-of-oracle-mode/700.system-view-of-oracle-mode/100.dictionary-view-of-oracle-mode.md)
           * [性能视图](700.reference/100.oceanbase-database-concepts/400.database-objects/100.database-objects-of-oracle-mode/700.system-view-of-oracle-mode/200.performance-view-of-oracle-mode.md)
         * [Data Integrity Of Oracle Mode](700.reference/100.oceanbase-database-concepts/400.database-objects/100.database-objects-of-oracle-mode/800.data-integrity-of-oracle-mode/100.data-integrity-overview-of-oracle-mode.md)
@@ -1058,7 +1058,7 @@
             * [主键约束](700.reference/100.oceanbase-database-concepts/400.database-objects/100.database-objects-of-oracle-mode/800.data-integrity-of-oracle-mode/200.integrity-constraint-type-of-oracle-mode/400.primary-key-constraint-of-oracle-mode.md)
             * [外键约束](700.reference/100.oceanbase-database-concepts/400.database-objects/100.database-objects-of-oracle-mode/800.data-integrity-of-oracle-mode/200.integrity-constraint-type-of-oracle-mode/500.foreign-key-constraint-of-oracle-mode.md)
             * [CHECK 约束](700.reference/100.oceanbase-database-concepts/400.database-objects/100.database-objects-of-oracle-mode/800.data-integrity-of-oracle-mode/200.integrity-constraint-type-of-oracle-mode/600.check-constraint-of-oracle-mode.md)
-      * Database Objects Of Mysql Mode
+      * 数据库对象（MySQL 模式）
         * [Introduction To Database Objects Of Mysql Mode](700.reference/100.oceanbase-database-concepts/400.database-objects/200.database-objects-of-mysql-mode/100.introduction-to-database-objects-of-mysql-mode/100.database-objects-overview-of-mysql-mode.md)
           * [数据库对象概述](700.reference/100.oceanbase-database-concepts/400.database-objects/200.database-objects-of-mysql-mode/100.introduction-to-database-objects-of-mysql-mode/100.database-objects-overview-of-mysql-mode.md)
           * [数据库对象类型](700.reference/100.oceanbase-database-concepts/400.database-objects/200.database-objects-of-mysql-mode/100.introduction-to-database-objects-of-mysql-mode/200.database-object-types-of-mysql-mode.md)
@@ -1107,7 +1107,7 @@
             * [MySQL 租户移植 Oracle 视图](700.reference/100.oceanbase-database-concepts/400.database-objects/200.database-objects-of-mysql-mode/500.view-of-mysql-mode/150.standard-view-of-mysql-mode/400.mysql-tenant-migration-oracle-standard-view-of-mysql-mode.md)
             * [系统租户移植 Oracle 视图](700.reference/100.oceanbase-database-concepts/400.database-objects/200.database-objects-of-mysql-mode/500.view-of-mysql-mode/150.standard-view-of-mysql-mode/500.system-tenant-porting-oracle-standard-views-of-mysql-mode.md)
             * [视图操作与数据访问指南](700.reference/100.oceanbase-database-concepts/400.database-objects/200.database-objects-of-mysql-mode/500.view-of-mysql-mode/150.standard-view-of-mysql-mode/600.data-operations-of-standard-views-of-mysql-mode.md)
-        * [System View Of Mysql Mode](700.reference/100.oceanbase-database-concepts/400.database-objects/200.database-objects-of-mysql-mode/600.system-view-of-mysql-mode/100.dictionary-view-of-mysql-mode.md)
+        * [系统视图（MySQL 模式）](700.reference/100.oceanbase-database-concepts/400.database-objects/200.database-objects-of-mysql-mode/600.system-view-of-mysql-mode/100.dictionary-view-of-mysql-mode.md)
           * [字典视图](700.reference/100.oceanbase-database-concepts/400.database-objects/200.database-objects-of-mysql-mode/600.system-view-of-mysql-mode/100.dictionary-view-of-mysql-mode.md)
           * [性能视图](700.reference/100.oceanbase-database-concepts/400.database-objects/200.database-objects-of-mysql-mode/600.system-view-of-mysql-mode/200.performance-view-of-mysql-mode.md)
         * [Data Integrity Of Mysql Mode](700.reference/100.oceanbase-database-concepts/400.database-objects/200.database-objects-of-mysql-mode/700.data-integrity-of-mysql-mode/100.data-integrity-overview-of-mysql-mode.md)
@@ -1180,7 +1180,7 @@
           * [并行查询的参数调优](700.reference/100.oceanbase-database-concepts/700.user-interface-and-query-language/100.SQL/500.distributed-execution-plan/500.optimize-the-parameters-for-parallel-query_sql.md)
       * [Pl](700.reference/100.oceanbase-database-concepts/700.user-interface-and-query-language/200.PL/200.pl-execution-mechanism.md)
         * [PL 执行机制](700.reference/100.oceanbase-database-concepts/700.user-interface-and-query-language/200.PL/200.pl-execution-mechanism.md)
-        * Pl Concepts
+        * PL 概念
           * [Pl Of Oracle Mode](700.reference/100.oceanbase-database-concepts/700.user-interface-and-query-language/200.PL/100.pl-concepts/100.pl-of-oracle-mode/100.subroutine-of-oracle-mode.md)
             * [子程序](700.reference/100.oceanbase-database-concepts/700.user-interface-and-query-language/200.PL/100.pl-concepts/100.pl-of-oracle-mode/100.subroutine-of-oracle-mode.md)
             * [存储过程](700.reference/100.oceanbase-database-concepts/700.user-interface-and-query-language/200.PL/100.pl-concepts/100.pl-of-oracle-mode/200.stored-procedure-of-oracle-mode.md)
@@ -1192,7 +1192,7 @@
             * [存储过程](700.reference/100.oceanbase-database-concepts/700.user-interface-and-query-language/200.PL/100.pl-concepts/200.pl-of-mysql-mode/200.stored-procedure-of-mysql-mode.md)
             * [函数](700.reference/100.oceanbase-database-concepts/700.user-interface-and-query-language/200.PL/100.pl-concepts/200.pl-of-mysql-mode/300.functions-of-mysql-mode.md)
             * [触发器](700.reference/100.oceanbase-database-concepts/700.user-interface-and-query-language/200.PL/100.pl-concepts/200.pl-of-mysql-mode/400.trigger-of-mysql-mode.md)
-    * Transaction Management
+    * 事务管理
       * [Transaction](700.reference/100.oceanbase-database-concepts/800.transaction-management/100.transaction/100.transaction-introduction.md)
         * [事务简介](700.reference/100.oceanbase-database-concepts/800.transaction-management/100.transaction/100.transaction-introduction.md)
         * [事务的结构](700.reference/100.oceanbase-database-concepts/800.transaction-management/100.transaction/200.transaction-structure.md)
@@ -1384,7 +1384,7 @@
           * [概述](700.reference/1000.performance-tuning-guide/500.sql-optimization/400.sql-optimization/500.query-rewrite/100.query-rewrite-overview.md)
           * [基于规则的查询改写](700.reference/1000.performance-tuning-guide/500.sql-optimization/400.sql-optimization/500.query-rewrite/200.rule-based-query-rewriting.md)
           * [基于代价的查询改写](700.reference/1000.performance-tuning-guide/500.sql-optimization/400.sql-optimization/500.query-rewrite/300.cost-based-query-rewriting.md)
-        * Query Optimization
+        * 查询优化
           * [Access Path](700.reference/1000.performance-tuning-guide/500.sql-optimization/400.sql-optimization/600.query-optimization/100.access-path/100.access-path-overview.md)
             * [概述](700.reference/1000.performance-tuning-guide/500.sql-optimization/400.sql-optimization/600.query-optimization/100.access-path/100.access-path-overview.md)
             * [基于规则的路径选择](700.reference/1000.performance-tuning-guide/500.sql-optimization/400.sql-optimization/600.query-optimization/100.access-path/200.rule-based-path-selection.md)
@@ -1398,7 +1398,7 @@
           * [优化器常用 Hint](700.reference/1000.performance-tuning-guide/500.sql-optimization/400.sql-optimization/700.manage-execution-plans/100.optimizer-hint.md)
           * [执行计划绑定](700.reference/1000.performance-tuning-guide/500.sql-optimization/400.sql-optimization/700.manage-execution-plans/200.plan-binding.md)
           * [SPM 执行计划管理](700.reference/1000.performance-tuning-guide/500.sql-optimization/400.sql-optimization/700.manage-execution-plans/300.sql-execution-plan-management-spm.md)
-  * Performance Test
+  * 性能测试
     * [Sysbench Benchmark Testing On Oceanbase Database](700.reference/1100.performance-test/200.sysbench-benchmark-testing-on-oceanbase-database/100.use-sysbench-to-test-the-performance-of-oceanbase-database.md)
       * [OceanBase 数据库 Sysbench 测试](700.reference/1100.performance-test/200.sysbench-benchmark-testing-on-oceanbase-database/100.use-sysbench-to-test-the-performance-of-oceanbase-database.md)
       * [OceanBase 数据库 Sysbench 测试报告](700.reference/1100.performance-test/200.sysbench-benchmark-testing-on-oceanbase-database/200.sysbench-benchmark-report-of-oceanbase-database.md)
@@ -1469,7 +1469,7 @@
       * [集群监控](700.reference/1400.platform-products/400.1.ocp-express/400.ocp-express-monitoring-center.md)
       * [诊断分析](700.reference/1400.platform-products/400.1.ocp-express/500.ocp-express-diagnosis-center.md)
       * [日志服务](700.reference/1400.platform-products/400.1.ocp-express/600.ocp-express-log-service.md)
-  * Components And Tools
+  * 组件与工具
     * [Manage](700.reference/1500.Components-and-Tools/100.manage/150.oceanbase-deployer.md)
       * [obd](700.reference/1500.Components-and-Tools/100.manage/150.oceanbase-deployer.md)
       * [ob-operator](700.reference/1500.Components-and-Tools/100.manage/250.overview-of-ob-operator.md)
@@ -1600,7 +1600,7 @@
             * [获取回收站中的所有租户信息](700.reference/1500.Components-and-Tools/100.manage/100.obshell/400.obshell-api-reference/800.recycle-bin-management/100.get-all-tenants-in-the-recycle-bin.md)
             * [恢复回收站中的租户](700.reference/1500.Components-and-Tools/100.manage/100.obshell/400.obshell-api-reference/800.recycle-bin-management/200.restore-tenants-in-the-recycle-bin.md)
             * [清除回收站中的租户](700.reference/1500.Components-and-Tools/100.manage/100.obshell/400.obshell-api-reference/800.recycle-bin-management/300.clear-tenants-from-the-recycle-bin.md)
-        * Obshell Sdk Reference
+        * OBShell SDK 参考
           * [Python](700.reference/1500.Components-and-Tools/100.manage/100.obshell/500.obshell-sdk-reference/100.python/100.quickstart-of-python.md)
             * [obshell-sdk-python 快速上手](700.reference/1500.Components-and-Tools/100.manage/100.obshell/500.obshell-sdk-reference/100.python/100.quickstart-of-python.md)
             * [Task Management](700.reference/1500.Components-and-Tools/100.manage/100.obshell/500.obshell-sdk-reference/100.python/1000.task-management/1900.operate-dag-of-python.md)
@@ -1798,7 +1798,7 @@
           * [诊断规则表达式](700.reference/1500.Components-and-Tools/200.monitor-and-diagnos/200.sql_diagnoser/300.sql_diagnoser-paramenters/200.sql_diagnoser-expression.md)
           * [接口说明](700.reference/1500.Components-and-Tools/200.monitor-and-diagnos/200.sql_diagnoser/300.sql_diagnoser-paramenters/300.sql_diagnoser-api.md)
           * [SQL Review 的诊断项](700.reference/1500.Components-and-Tools/200.monitor-and-diagnos/200.sql_diagnoser/300.sql_diagnoser-paramenters/400.sql_diagnoser-review-items.md)
-    * Log Analysis
+    * 日志分析
       * [Oblogminer](700.reference/1500.Components-and-Tools/250.log-analysis/700.oblogminer/100.overview-of-oblogminer.md)
         * [oblogminer 概述](700.reference/1500.Components-and-Tools/250.log-analysis/700.oblogminer/100.overview-of-oblogminer.md)
         * [安装 oblogminer](700.reference/1500.Components-and-Tools/250.log-analysis/700.oblogminer/200.install-oblogminer.md)
@@ -1820,7 +1820,7 @@
           * [obcdc 常见配置项](700.reference/1500.Components-and-Tools/300.data-integrate/400.cdc/200.obcdc-parameters/100.general-obcdc-configuration-items.md)
           * [obcdc 配置项说明](700.reference/1500.Components-and-Tools/300.data-integrate/400.cdc/200.obcdc-parameters/200.obcdc-configuration-items.md)
           * [配置文件示例](700.reference/1500.Components-and-Tools/300.data-integrate/400.cdc/200.obcdc-parameters/50.example-configuration-file.md)
-    * Stress Test Tools
+    * 压力测试工具
       * [Mysqltest](700.reference/1500.Components-and-Tools/400.stress-test-tools/100.mysqltest/100.install-of-mysqltest.md)
         * [使用 obd.sh 执行 mysqltest](700.reference/1500.Components-and-Tools/400.stress-test-tools/100.mysqltest/100.install-of-mysqltest.md)
         * [Use Of Case](700.reference/1500.Components-and-Tools/400.stress-test-tools/100.mysqltest/200.use-of-case/100.add-a-case.md)
@@ -1830,7 +1830,7 @@
   * [Oceanbase Database Plugin](700.reference/1600.oceanbase-database-plugin/100.overview-of-oceanbase-database-plugin.md)
     * [OceanBase 数据库插件概述](700.reference/1600.oceanbase-database-plugin/100.overview-of-oceanbase-database-plugin.md)
     * [分词器插件](700.reference/1600.oceanbase-database-plugin/200.tokenizer-plugin.md)
-  * System Management
+  * 系统管理
     * [Disk Data File Management](700.reference/200.system-management/1000.disk-data-file-management/100.disk-data-file-dynamic-expansion.md)
       * [配置磁盘数据文件的动态扩容](700.reference/200.system-management/1000.disk-data-file-management/100.disk-data-file-dynamic-expansion.md)
       * [查看租户或表占用的磁盘空间](700.reference/200.system-management/1000.disk-data-file-management/200.view-the-disk-usage.md)
@@ -1838,7 +1838,7 @@
       * [配置管理介绍](700.reference/200.system-management/200.configuration-management/100.configuration-management-introduction.md)
       * [设置参数](700.reference/200.system-management/200.configuration-management/200.set-parameters.md)
       * [设置变量](700.reference/200.system-management/200.configuration-management/300.set-variables.md)
-    * Manage Data Storage
+    * 管理数据存储
       * [Dump Management](700.reference/200.system-management/500.manage-data-storage/100.dump-management/100.dump-management-overview.md)
         * [转储管理概述](700.reference/200.system-management/500.manage-data-storage/100.dump-management/100.dump-management-overview.md)
         * [自动触发转储](700.reference/200.system-management/500.manage-data-storage/100.dump-management/200.automatically-trigger-dump.md)
@@ -1875,7 +1875,7 @@
       * [多租户线程常见问题](700.reference/200.system-management/800.management-process/500.faq-about-multi-tenant-threads.md)
   * [Database Object Management](700.reference/300.database-object-management/000.objects-management-overview.md)
     * [数据库对象管理概述](700.reference/300.database-object-management/000.objects-management-overview.md)
-    * Manage Object Of Mysql Mode
+    * 管理对象（MySQL 模式）
       * [Manage Databases Of Mysql Mode](700.reference/300.database-object-management/100.manage-object-of-mysql-mode/100.manage-databases-of-mysql-mode/100.to-create-a-database-of-mysql-mode.md)
         * [创建数据库](700.reference/300.database-object-management/100.manage-object-of-mysql-mode/100.manage-databases-of-mysql-mode/100.to-create-a-database-of-mysql-mode.md)
         * [查看数据库](700.reference/300.database-object-management/100.manage-object-of-mysql-mode/100.manage-databases-of-mysql-mode/200.view-a-database-of-mysql-mode.md)
@@ -2084,7 +2084,7 @@
     * [预留关键字（MySQL 模式）](700.reference/500.sql-reference/800.reserved-keyword-of-mysql-mode.md)
     * [SQL 概述](700.reference/500.sql-reference/90.sql-overview-of-oracle-mode.md)
     * [预留关键字（Oracle 模式）](700.reference/500.sql-reference/900.reserved-keywords-of-oracle-mode.md)
-    * Sql Syntax
+    * SQL 语法
       * [System Tenants](700.reference/500.sql-reference/100.sql-syntax/100.system-tenants/100.overview-of-management-commands.md)
         * [管理命令概述](700.reference/500.sql-reference/100.sql-syntax/100.system-tenants/100.overview-of-management-commands.md)
         * [DROP RESOURCE UNIT](700.reference/500.sql-reference/100.sql-syntax/100.system-tenants/1000.drop-resource-unit.md)
@@ -2150,7 +2150,7 @@
           * [CANCEL BALANCE JOB](700.reference/500.sql-reference/100.sql-syntax/100.system-tenants/200.alter-system/840.cancel-balance-job.md)
           * [CANCEL CLONE](700.reference/500.sql-reference/100.sql-syntax/100.system-tenants/200.alter-system/850.cancel-clone.md)
           * [CANCEL DELETE BACKUP](700.reference/500.sql-reference/100.sql-syntax/100.system-tenants/200.alter-system/900.cancel-delete-backup.md)
-      * Common Tenant Of Mysql Mode
+      * 通用租户（MySQL 模式）
         * [Basic Elements Of Mysql Mode](700.reference/500.sql-reference/100.sql-syntax/200.common-tenant-of-mysql-mode/100.basic-elements-of-mysql-mode/500.schema-object-name-of-mysql-mode.md)
           * [Schema 对象名称](700.reference/500.sql-reference/100.sql-syntax/200.common-tenant-of-mysql-mode/100.basic-elements-of-mysql-mode/500.schema-object-name-of-mysql-mode.md)
           * [用户自定义变量](700.reference/500.sql-reference/100.sql-syntax/200.common-tenant-of-mysql-mode/100.basic-elements-of-mysql-mode/600.custom-variables-of-mysql-mode.md)
@@ -2257,7 +2257,7 @@
             * [VALUES](700.reference/500.sql-reference/100.sql-syntax/200.common-tenant-of-mysql-mode/400.functions-of-mysql-mode/1000.other-functions-of-mysql-mode/3000.values-of-mysql-mode.md)
             * [DEFAULT](700.reference/500.sql-reference/100.sql-syntax/200.common-tenant-of-mysql-mode/400.functions-of-mysql-mode/1000.other-functions-of-mysql-mode/400.default-of-mysql-mode.md)
             * [NAME_CONST](700.reference/500.sql-reference/100.sql-syntax/200.common-tenant-of-mysql-mode/400.functions-of-mysql-mode/1000.other-functions-of-mysql-mode/500.name-const-of-mysql-mode.md)
-          * Single Row Functions Of Mysql Mode
+          * 单行函数（MySQL 模式）
             * [Date And Time Functions Of Mysql Mode](700.reference/500.sql-reference/100.sql-syntax/200.common-tenant-of-mysql-mode/400.functions-of-mysql-mode/200.single-row-functions-of-mysql-mode/100.date-and-time-functions-of-mysql-mode/100.adddate-of-mysql-mode.md)
               * [ADDDATE](700.reference/500.sql-reference/100.sql-syntax/200.common-tenant-of-mysql-mode/400.functions-of-mysql-mode/200.single-row-functions-of-mysql-mode/100.date-and-time-functions-of-mysql-mode/100.adddate-of-mysql-mode.md)
               * [DATE_FORMAT](700.reference/500.sql-reference/100.sql-syntax/200.common-tenant-of-mysql-mode/400.functions-of-mysql-mode/200.single-row-functions-of-mysql-mode/100.date-and-time-functions-of-mysql-mode/1000.date-format-of-mysql-mode.md)
@@ -2756,7 +2756,7 @@
           * [伪列概述](700.reference/500.sql-reference/100.sql-syntax/200.common-tenant-of-mysql-mode/800.overview-of-pseudo-columns-of-mysql-mode/100.overview-of-pseudo-columns-of-mysql-mode.md)
           * [PARTITIONID 伪列](700.reference/500.sql-reference/100.sql-syntax/200.common-tenant-of-mysql-mode/800.overview-of-pseudo-columns-of-mysql-mode/200.partititionid-pseudo-column-of-mysql-mode.md)
           * [序列伪列](700.reference/500.sql-reference/100.sql-syntax/200.common-tenant-of-mysql-mode/800.overview-of-pseudo-columns-of-mysql-mode/300.sequence-pseudo-column-of-mysql-mode.md)
-      * Common Tenant Of Oracle Mode
+      * 通用租户（Oracle 模式）
         * [Ddl Function Of Oracle Mode](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/1000.ddl-function-of-oracle-mode/100.ddl-function-overview-of-oracle-mode.md)
           * [DDL 功能概述](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/1000.ddl-function-of-oracle-mode/100.ddl-function-overview-of-oracle-mode.md)
           * [Online DDL 和 Offline DDL 操作](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/1000.ddl-function-of-oracle-mode/150.online-and-offline-ddl-list-of-oracle-mode.md)
@@ -2882,7 +2882,7 @@
                   * [Transform Hint 类型下的 Cost Based Transform Hint](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/300.basic-elements-of-oracle-mode/600.annotation-of-oracle-mode/400.hint-of-oracle-mode/200.hint-list-of-oracle-mode/300.transform-hint-of-oracle-mode/200.hints-related-to-cost-based-transform-hint-of-oracle-mode.md)
                   * [Transform Hint 类型下的 Heuristics Transform Hints](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/300.basic-elements-of-oracle-mode/600.annotation-of-oracle-mode/400.hint-of-oracle-mode/200.hint-list-of-oracle-mode/300.transform-hint-of-oracle-mode/300.hints-related-to-heuristics-transform-hint-of-oracle-mode.md)
                   * [Transform Hint 类型下的其他 Hint](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/300.basic-elements-of-oracle-mode/600.annotation-of-oracle-mode/400.hint-of-oracle-mode/200.hint-list-of-oracle-mode/300.transform-hint-of-oracle-mode/400.hints-related-to-other-hint-of-oracle-mode.md)
-          * [Database Objects Of Oracle Mode](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/300.basic-elements-of-oracle-mode/700.database-objects-of-oracle-mode/100.schema-object-of-oracle-mode.md)
+          * [数据库对象（Oracle 模式）](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/300.basic-elements-of-oracle-mode/700.database-objects-of-oracle-mode/100.schema-object-of-oracle-mode.md)
             * [Schema 对象](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/300.basic-elements-of-oracle-mode/700.database-objects-of-oracle-mode/100.schema-object-of-oracle-mode.md)
             * [非 Schema 对象](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/300.basic-elements-of-oracle-mode/700.database-objects-of-oracle-mode/200.non-schema-objects-of-oracle-mode.md)
           * [Database Naming Convention Of Oracle Mode](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/300.basic-elements-of-oracle-mode/800.database-naming-convention-of-oracle-mode/100.overview-of-database-object-naming-conventions-of-oracle-mode.md)
@@ -2906,7 +2906,7 @@
           * [COLLATE 运算符](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/400.operator-of-oracle-mode/700.collation-of-oracle-mode.md)
         * [Functions Of Oracle Mode](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/500.functions-of-oracle-mode/100.function-overview-of-oracle-mode.md)
           * [函数概述](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/500.functions-of-oracle-mode/100.function-overview-of-oracle-mode.md)
-          * Single Row Functions Of Oracle Mode
+          * 单行函数（Oracle 模式）
             * [Numeric Functions Of Oracle Mode](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/500.functions-of-oracle-mode/200.single-row-functions-of-oracle-mode/100.numeric-functions-of-oracle-mode/100.abs-of-oracle-mode.md)
               * [ABS](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/500.functions-of-oracle-mode/200.single-row-functions-of-oracle-mode/100.numeric-functions-of-oracle-mode/100.abs-of-oracle-mode.md)
               * [EXP](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/500.functions-of-oracle-mode/200.single-row-functions-of-oracle-mode/100.numeric-functions-of-oracle-mode/1000.exp-of-oracle-mode.md)
@@ -3191,7 +3191,7 @@
           * [子查询](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/800.queries-and-subqueries-of-oracle-mode/600.subquery-of-oracle-mode.md)
           * [横向派生表](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/800.queries-and-subqueries-of-oracle-mode/650.lateral-derived-tables-of-oracle-sql-suntax.md)
           * [DUAL 表查询](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/800.queries-and-subqueries-of-oracle-mode/700.queries-dual-tables-of-oracle-mode.md)
-        * Sql Statement Of Oracle Mode
+        * SQL 语句（Oracle 模式）
           * [Ddl Of Oracle Mode](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/900.sql-statement-of-oracle-mode/100.ddl-of-oracle-mode/100.alter-external-table-of-oracle-mode.md)
             * [ALTER EXTERNAL TABLE](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/900.sql-statement-of-oracle-mode/100.ddl-of-oracle-mode/100.alter-external-table-of-oracle-mode.md)
             * [ALTER INDEX](700.reference/500.sql-reference/100.sql-syntax/300.common-tenant-of-oracle-mode/900.sql-statement-of-oracle-mode/100.ddl-of-oracle-mode/100.alter-index-of-oracle-mode.md)
@@ -3301,7 +3301,7 @@
         * [JOIN 表使用建议](700.reference/500.sql-reference/200.sql-specifications-and-practices/300.sql-statement-example/200.join-table-usage-suggestions.md)
         * [弱一致性读](700.reference/500.sql-reference/200.sql-specifications-and-practices/300.sql-statement-example/300.weak-consistency-read.md)
         * [分页查询](700.reference/500.sql-reference/200.sql-specifications-and-practices/300.sql-statement-example/400.paging-query.md)
-  * Pl Reference
+  * PL 参考
     * [What Is Pl](700.reference/600.pl-reference/100.what-is-pl/100.pl-introduction.md)
       * [Pl Introduction](700.reference/600.pl-reference/100.what-is-pl/100.pl-introduction.md)
       * [PL 的主要功能](700.reference/600.pl-reference/100.what-is-pl/200.main-functions-of-pl.md)
@@ -4073,7 +4073,7 @@
     * [V3.x 与 V4.x 视图变更](700.reference/700.system-views/210.differences-of-views-between-3.x-and-4.x.md)
     * [常见统计事件说明](700.reference/700.system-views/510.statistical-event-description.md)
     * [常见等待事件说明](700.reference/700.system-views/520.wait-event-description.md)
-    * System View Of Sys Tenant
+    * 系统视图（系统租户）
       * [Dictionary View Of Sys Tenant](700.reference/700.system-views/300.system-view-of-sys-tenant/200.dictionary-view-of-sys-tenant/1000.information_schema-global_status-of-sys-tenant.md)
         * [information_schema.GLOBAL_STATUS](700.reference/700.system-views/300.system-view-of-sys-tenant/200.dictionary-view-of-sys-tenant/1000.information_schema-global_status-of-sys-tenant.md)
         * [oceanbase.CDB_OB_MAJOR_COMPACTION](700.reference/700.system-views/300.system-view-of-sys-tenant/200.dictionary-view-of-sys-tenant/10000.o-cdb_ob_major_compaction-of-sys-tenant.md)
@@ -4561,7 +4561,7 @@
         * [GV$OB_FLT_TRACE_CONFIG](700.reference/700.system-views/300.system-view-of-sys-tenant/300.performance-view-of-sys-tenant/900.gv-ob_flt_trace_config-of-sys-tenant.md)
         * [GV$OB_FUNCTION_IO_STAT](700.reference/700.system-views/300.system-view-of-sys-tenant/300.performance-view-of-sys-tenant/910.gv-ob_function_io_stat-of-sys-tenant.md)
         * [GV$OB_GROUP_IO_STAT](700.reference/700.system-views/300.system-view-of-sys-tenant/300.performance-view-of-sys-tenant/920.gv-ob_group_io_stat-of-sys-tenant.md)
-    * System View Of Mysql Mode
+    * 系统视图（MySQL 模式）
       * [Dictionary View Of Mysql Mode](700.reference/700.system-views/400.system-view-of-mysql-mode/200.dictionary-view-of-mysql-mode/1000.information_schema-global_status-of-mysql-mode.md)
         * [information_schema.GLOBAL_STATUS](700.reference/700.system-views/400.system-view-of-mysql-mode/200.dictionary-view-of-mysql-mode/1000.information_schema-global_status-of-mysql-mode.md)
         * [oceanbase.DBA_OB_LS_LOCATIONS](700.reference/700.system-views/400.system-view-of-mysql-mode/200.dictionary-view-of-mysql-mode/10000.o-dba_ob_ls_locations-of-mysql-mode.md)
@@ -4909,7 +4909,7 @@
         * [GV$OB_FLT_TRACE_CONFIG](700.reference/700.system-views/400.system-view-of-mysql-mode/300.performance-view-of-mysql-mode/900.gv-ob_flt_trace_config-of-mysql-mode.md)
         * [GV$OB_FUNCTION_IO_STAT](700.reference/700.system-views/400.system-view-of-mysql-mode/300.performance-view-of-mysql-mode/910.gv-ob_function_io_stat-of-mysql-mode.md)
         * [GV$OB_GROUP_IO_STAT](700.reference/700.system-views/400.system-view-of-mysql-mode/300.performance-view-of-mysql-mode/920.gv-ob_group_io_stat-of-mysql-mode.md)
-    * System View Of Oracle Mode
+    * 系统视图（Oracle 模式）
       * [Dictionary View Of Oracle Mode](700.reference/700.system-views/500.system-view-of-oracle-mode/200.dictionary-view-of-oracle-mode/1000.all_def_audit_opts-of-oracle-mode.md)
         * [ALL_DEF_AUDIT_OPTS](700.reference/700.system-views/500.system-view-of-oracle-mode/200.dictionary-view-of-oracle-mode/1000.all_def_audit_opts-of-oracle-mode.md)
         * [DBA_MVREF_STMT_STATS](700.reference/700.system-views/500.system-view-of-oracle-mode/200.dictionary-view-of-oracle-mode/10000.dba_mvref_stmt_stats-of-oracle-mode.md)
@@ -5998,7 +5998,7 @@
         * [ob_sparse_drop_ratio_search](700.reference/800.configuration-items-and-system-variables/200.system-variable/400.session-system-variable/850.ob_sparse_drop_ratio_search.md)
         * [enable_sql_plan_monitor](700.reference/800.configuration-items-and-system-variables/200.system-variable/400.session-system-variable/90.enable_sql_plan_monitor-session.md)
         * [ob_proxy_partition_hit](700.reference/800.configuration-items-and-system-variables/200.system-variable/400.session-system-variable/900.ob_proxy_partition_hit-session.md)
-  * Error Code
+  * 错误码
     * [Error Code Of Mysql Mode](700.reference/900.error-code/600.error-code-of-mysql-mode/100.use-error-information-of-mysql-mode.md)
       * [错误信息概述](700.reference/900.error-code/600.error-code-of-mysql-mode/100.use-error-information-of-mysql-mode.md)
       * [9500 ~ 9999](700.reference/900.error-code/600.error-code-of-mysql-mode/1000.9500-9999-of-mysql-mode.md)
