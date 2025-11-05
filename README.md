@@ -1,125 +1,65 @@
-
 # OceanBase 数据库文档
 
-欢迎访问 OceanBase 数据库文档。您可以在本仓库中查看 OceanBase 数据库的中英文文档。
+欢迎来到 OceanBase 数据库文档中心！
 
-* `zh-CN` 文件夹下存放的是 OceanBase 数据库的中文文档
+## 关于 OceanBase
 
-* `en-US` 文件夹下存放的是 OceanBase 数据库的英文文档
+OceanBase 是一个分布式关系型数据库管理系统（RDBMS），具有高可用、高性能、可扩展等特点。
 
-OceanBase 欢迎大家随时参与到文档的共同建设中，OceanBase 文档的贡献者可以：
+## 文档导航
 
-* 提交文档问题或者建议
+本文档包含以下主要内容：
 
-* 优化已有的内容
+- **[版本更新记录](zh-CN/0.bp-version-change-record.md)** - 了解最新版本的功能更新和变更
+- **[产品更新](zh-CN/50.product-updates.md)** - 查看产品新功能
 
-* 编写新的内容
+### 快速开始
 
+- **[快速体验 OceanBase 社区版](zh-CN/200.quickstart/100.quickly-experience-oceanbase-for-community.md)** - 快速上手 OceanBase
+- **[快速入门系列教程](zh-CN/200.quickstart/800.tutorial-list.md)** - 查看所有快速入门教程
 
-## 贡献文档
+### 学习 OceanBase
 
-### 开始之前
+- **[OceanBase 概述](zh-CN/100.learn-more-about-oceanbase/100.what-is-oceanbase.md)** - 了解 OceanBase 的基本概念
+- **[系统架构](zh-CN/100.learn-more-about-oceanbase/300.system-architecture.md)** - 深入了解 OceanBase 的架构设计
+- **[兼容性说明](zh-CN/100.learn-more-about-oceanbase/500.compatibility-with-mysql.md)** - 了解与 MySQL、Oracle 的兼容性
 
-感谢您对 OceanBase 数据库文档的贡献兴趣。为厘清就个人或实体贡献内容而授予的知识产权许可，我们必须对每位贡献者签署的贡献者许可协议（Contributor Licence Agreement，简称 CLA）（“CLA”）进行归档，以证明就 CLA 达成的一致。点击 [OceanBase CLA](https://cla-assistant.io/oceanbase/oceanbase?pullRequest=108)，点击 **Sign in with GitHub to agree** 按钮签署协议。
+### 开发指南
 
-### 贡献指南
+- **[MySQL 模式应用开发](zh-CN/300.develop/100.application-development-of-mysql-mode/)** - 在 MySQL 模式下开发应用
+- **[Oracle 模式应用开发](zh-CN/300.develop/200.application-development-of-oracle-mode/)** - 在 Oracle 模式下开发应用
 
-您可以按照以下步骤提交 Pull Request（简称 PR）：
+### 部署与管理
 
-**步骤 1：Fork 项目仓库**
+- **[部署概述](zh-CN/400.deploy/100.deploy-overview.md)** - 了解如何部署 OceanBase 数据库
+- **[集群管理](zh-CN/600.manage/100.cluster-management/)** - 管理 OceanBase 集群
+- **[租户管理](zh-CN/600.manage/200.tenant-management/)** - 管理数据库租户
 
-1. 访问 OceanBase 数据库文档的 [GitHub 地址](https://github.com/oceanbase/oceanbase-doc)。
+### 数据迁移
 
-2. 点击 Fork 按钮创建远程分支。
+- **[数据迁移概述](zh-CN/500.data-migration/100.data-migration-overview.md)** - 了解数据迁移方案
+- **[从 MySQL 迁移到 OceanBase](zh-CN/500.data-migration/200.migrate-data-from-mysql-database-to-oceanbase-database/)** - MySQL 数据迁移指南
+- **[从 Oracle 迁移到 OceanBase](zh-CN/500.data-migration/400.migrate-data-from-oracle-database-to-oceanbase-database/)** - Oracle 数据迁移指南
 
-**步骤 2：克隆分支到本地**
+### 参考文档
 
-1. 定义工作目录。
+- **[配置项和系统变量](zh-CN/700.reference/)** - 查看所有配置项和系统变量
+- **[SQL 参考](zh-CN/700.reference/)** - SQL 语法和函数参考
 
-   ```bash
-   # 定义工作目录
-   working_dir=$HOME/Workspace
-   ```
+### 常见问题
 
-2. 配置 GitHub 用户名。
+- **[FAQ](zh-CN/800.FAQ/)** - 常见问题解答
 
-   ```bash
-   user={GitHub账户名}
-   ```
+## 开始使用
 
-3. 克隆代码。
+建议新用户从以下文档开始：
 
-   ```bash
-   # 克隆代码
-   mkdir -p $working_dir
-   cd $working_dir
-   git clone git@github.com:$user/oceanbase-doc.git
-   # 或: git clone https://github.com/$user/oceanbase-doc.git
-   
-   # 添加上游分支
-   cd $working_dir/oceanbase-doc
-   git remote add upstream git@github.com:oceanbase/oceanbase-doc.git
-   # 或: git remote add upstream https://github.com/oceanbase/oceanbase-doc.git
-   
-   # 为上游分支设置 no_push
-   git remote set-url --push upstream no_push
-   
-   # 确认远程分支有效
-   git remote -v
-   ```
+1. [快速体验 OceanBase 社区版](zh-CN/200.quickstart/100.quickly-experience-oceanbase-for-community.md)
+2. [OceanBase 概述](zh-CN/100.learn-more-about-oceanbase/100.what-is-oceanbase.md)
+3. [快速入门系列教程](zh-CN/200.quickstart/800.tutorial-list.md)
 
-**步骤 3：创建新分支**
+## 文档版本
 
-1. 更新本地分支。
+本文档适用于 **OceanBase V4.3.5** 版本。
 
-   ```bash
-   cd $working_dir/oceanbase-doc
-   git fetch upstream
-   git checkout $branch
-   git rebase upstream/$branch
-   ```
-
-2. 基于本地 $branch 分支创建新分支。
-
-   ```bash
-   git checkout -b new-branch-name
-   ```
-
-**步骤 4：修改/添加/删除文档**
-
-在 `new-branch-name` 上修改文档并保存更改。
-
-**步骤 5：提交更改**
-
-```bash
-# 检查本地文件状态
-git status
-
-# 添加您希望提交的文件
-# 如果您希望提交所有更改，直接使用 `git add .`
-git add <file> ... 
-git commit -m "commit-message: update the xx"
-```
-
-**步骤 6：保持开发分支与上游分支同步**
-
-```bash
-# 在开发分支执行以下操作
-git fetch upstream
-git rebase upstream/branch
-```
-
-**步骤 7：推送更改至远程分支**
-
-```bash
-# 在开发分支执行以下操作
-git push -u origin new-branch-name
-```
-
-**步骤 8：创建 PR**
-
-1. 访问您 Fork 的仓库。
-
-2. 单击 `new-branch-name` 分支旁的 `Compare & pull request` 按钮。
-
-以上就是参与 OceanBase 数据库文档共建的步骤，如果在此过程中遇到任何问题，可以加入我们唯一官网钉钉群：41203246，与社区热心的技术大神、热情的贡献者、经验丰富的技术专家一起交流、探讨问题。
+更多版本信息，请查看 [版本更新记录](zh-CN/0.bp-version-change-record.md)。
